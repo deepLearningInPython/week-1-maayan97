@@ -1,4 +1,4 @@
-import numpy
+import numpy as np
 
 # Follow the tasks below to practice basic Python concepts.
 # Write your code in between the dashed lines.
@@ -14,7 +14,7 @@ import numpy
 # -----------------------------------------------
 
 def step(num):
-    return 1 if num > 0, else -1
+    return 1 if num > 0 else -1
 
 
 
