@@ -47,7 +47,7 @@ def ReLu(array, cutoff = 0):
 # Your code here:
 # -----------------------------------------------
 
-def neural_net_layer(two_dim, 1_dim):
+def neural_net_layer(two_dim, one_dim):
     multiplied = np.dot(two_dim, one_dim)
     return ReLu(multiplied)
 
