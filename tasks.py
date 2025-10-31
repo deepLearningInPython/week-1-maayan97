@@ -30,11 +30,12 @@ def step(num):
 
 # Your code here:
 # -----------------------------------------------
-def ReLu(array, cutoff = 0):
-    array = np.array(array)
-    return np.maximum(array,cutoff)
+import numpy as np
 
-ReLu = ReLU
+def ReLu(array, cutoff=0):
+    array = np.array(array)
+    return np.maximum(array, cutoff)
+
 
 # -----------------------------------------------
 
