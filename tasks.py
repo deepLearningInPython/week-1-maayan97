@@ -32,7 +32,7 @@ def step(num):
 # -----------------------------------------------
 
 def ReLu(array, cutoff=0):
-    array = np.array(array)
+    array = np.asarray(array)
     return np.maximum(array, cutoff)
 
 ReLU = ReLu
