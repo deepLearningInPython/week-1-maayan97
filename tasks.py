@@ -30,7 +30,6 @@ def step(num):
 
 # Your code here:
 # -----------------------------------------------
-import numpy as np
 
 def ReLu(array, cutoff=0):
     array = np.array(array)
@@ -49,8 +48,6 @@ ReLU = ReLu
 
 # Your code here:
 # -----------------------------------------------
-import numpy as np  
-from tasks import ReLu 
 
 def neural_net_layer(two_dim, one_dim):
     two_dim = np.asarray(two_dim)
