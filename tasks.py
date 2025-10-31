@@ -30,7 +30,7 @@ def step(num):
 
 # Your code here:
 # -----------------------------------------------
-def ReLu(array, cutoff = 0):
+def ReLU(array, cutoff = 0):
     return np.maximum(array,cutoff)
 
 
