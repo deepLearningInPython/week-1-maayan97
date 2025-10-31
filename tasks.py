@@ -36,7 +36,7 @@ def ReLu(array, cutoff=0):
     array = np.array(array)
     return np.maximum(array, cutoff)
 
-
+ReLU = ReLu
 # -----------------------------------------------
 
 
@@ -50,7 +50,7 @@ def ReLu(array, cutoff=0):
 # Your code here:
 # -----------------------------------------------
 import numpy as np  
-from tasks import step  
+from tasks import ReLu 
 
 def neural_net_layer(two_dim, one_dim):
     two_dim = np.asarray(two_dim)
