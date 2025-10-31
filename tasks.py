@@ -31,8 +31,10 @@ def step(num):
 # Your code here:
 # -----------------------------------------------
 def ReLu(array, cutoff = 0):
+    array = np.array(array)
     return np.maximum(array,cutoff)
 
+ReLu = ReLU
 
 # -----------------------------------------------
 
@@ -48,8 +50,10 @@ def ReLu(array, cutoff = 0):
 # -----------------------------------------------
 
 def neural_net_layer(two_dim, one_dim):
+    two_dim = np.asarray(two_dim)
+    one_dim = np.asarray(one_dim)
     multiplied = np.dot(two_dim, one_dim)
-    return ReLU(multiplied)
+    return ReLu(multiplied)
 
 
 # ------------------------------------------
