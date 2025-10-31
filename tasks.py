@@ -49,6 +49,8 @@ def ReLu(array, cutoff=0):
 
 # Your code here:
 # -----------------------------------------------
+import numpy as np  
+from tasks import step  
 
 def neural_net_layer(two_dim, one_dim):
     two_dim = np.asarray(two_dim)
